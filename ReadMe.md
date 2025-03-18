@@ -62,7 +62,7 @@ and eventually removed.
    export GFDL_WORK=/glade/derecho/scratch/$USER/isca_work
    export GFDL_DATA=/glade/derecho/scratch/$USER/isca_data
    ```
-12. Build and Run a Test Case on a batch node
+4. Build and Run a Test Case on a batch node
     ```bash
     cd $GFDL_BASE/exp/test_cases/held_suarez
     qsub isca-test.sh
